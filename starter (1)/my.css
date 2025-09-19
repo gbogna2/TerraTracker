@@ -1,9 +1,0 @@
-h1#welcome{
-  text-align: center;
-  color: rgb(117, 115, 102);
-  font-family: Terraria;
-}
-img#logo{
-    flex-direction: column;
-    align-items: center;
-}

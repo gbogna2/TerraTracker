@@ -3,7 +3,7 @@ h1#welcome{
   color: rgb(117, 115, 102);
   font-family: Terraria;
 }
-img#logo{
+#logo{
   margin: auto;
   width: 400px;
   height: 150px;

@@ -4,7 +4,7 @@ h1#welcome{
   font-family: Terraria;
 }
 #logo{
-  margin: auto;
+  display: block;
   width: 400px;
   height: 150px;
 }

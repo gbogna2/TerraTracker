@@ -5,6 +5,7 @@ h1#welcome{
 }
 img#logo{
   display: block;
+  margin: auto;
   width: 600px;
   height: 200px;
 }

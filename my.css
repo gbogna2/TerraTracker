@@ -23,7 +23,7 @@ select {
   display: block;
   margin: auto;
 }
-select>input {
+input {
   display: block;
   margin: auto;
 }

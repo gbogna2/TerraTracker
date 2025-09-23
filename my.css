@@ -16,6 +16,6 @@ p#welcome{
   src: url('Terraria.TTF') format('truetype');
 }
 
-.ph {
+p {
   font-family: 'Terraria', sans-serif;
 }

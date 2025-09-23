@@ -9,3 +9,7 @@ img#logo{
   width: 600px;
   height: 200px;
 }
+p#welcome{
+  text-align: center;
+  color: rgb(223, 179, 36);
+}

@@ -19,4 +19,8 @@ p#welcome{
 p {
   font-family: 'Terraria', sans-serif;
 }
+select {
+  display: block;
+  margin: auto;
+}
 

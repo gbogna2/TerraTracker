@@ -1,6 +1,6 @@
 h1#welcome{
   text-align: center;
-  color: rgb(117, 115, 102);
+  color: rgb(255, 255, 255);
   font-family: 'Terraria', sans-serif;
 }
 img#logo{
@@ -10,6 +10,7 @@ img#logo{
 p#welcome{
   text-align: center;
   color: rgb(223, 179, 36);
+  fill: rgb(108, 108, 252);
 }
 @font-face {
   font-family: 'Terraria';

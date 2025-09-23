@@ -18,6 +18,7 @@ p#welcome{
 
 p {
   font-family: 'Terraria', sans-serif;
+  size: 18px;
 }
 select {
   display: block;

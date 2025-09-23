@@ -1,7 +1,7 @@
 h1#welcome{
   text-align: center;
   color: rgb(117, 115, 102);
-  font-family: Terraria;
+  font-family: 'Terraria', sans-serif;
 }
 img#logo{
   display: block;
@@ -10,4 +10,12 @@ img#logo{
 p#welcome{
   text-align: center;
   color: rgb(223, 179, 36);
+}
+@font-face {
+  font-family: 'Terraria';
+  src: url('Terraria.TTF') format('truetype');
+}
+
+.ph {
+  font-family: 'Terraria', sans-serif;
 }

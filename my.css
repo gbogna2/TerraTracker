@@ -27,3 +27,7 @@ input {
   display: block;
   margin: auto;
 }
+p>a {
+  font-family: 'Terraria', sans-serif;
+  text-align: center;
+}

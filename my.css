@@ -23,4 +23,7 @@ select {
   display: block;
   margin: auto;
 }
-
+select>input {
+  display: block;
+  margin: auto;
+}

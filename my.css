@@ -70,10 +70,6 @@ footer {
   margin-left: 3%;
   margin-right: 77%;
 }
-input#Reco {
-  margin-right: 60%;
-  margin-left: 11%; 
-}
 h2#welcome{
   text-align: center;
   font-family: 'Terraria', sans-serif;
@@ -83,4 +79,9 @@ h2#welcome{
   border: 1px, solid rgb(0, 0, 0);
   margin-left: 25%;
   margin-right: 25%;
+}
+#Reco{
+  display: block;
+  margin: auto;
+  max-width: 100%;
 }

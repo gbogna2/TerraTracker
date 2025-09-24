@@ -18,12 +18,21 @@
   		body {
       		grid-template-columns:200px auto 200px;
 			grid-template-rows:50px 300px 50px ;
+			grid-template-areas: "headpc" "navpc" "mainpc" "asidepc" "footpc";
   		}
 	}
 	@media screen and (max-width: 600px) {
   		body {
       		grid-template-columns:200px auto;
 			grid-template-rows:50px 150px 150px 50px ;
+			grid-template-areas: "headtab" "navtab" "maintab" "asidetab" "foottab";
+  		}
+	}
+	@media screen and (max-width: 400px) {
+  		body {
+      		grid-template-columns:150px auto;
+			grid-template-rows:50px 100px 100px 50px ;
+			grid-template-areas: "headphone" "navphone" "mainphone" "asidephone" "footphone";
   		}
 	}
 	</style>

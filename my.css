@@ -36,3 +36,22 @@ p>a {
   font-family: 'Terraria', sans-serif;
   text-align: center;
 }
+header{
+  grid-area: head;
+}
+
+nav {
+   grid-area: nav;      
+}
+
+main {
+   grid-area: main;      
+}
+
+aside {
+   grid-area: aside;      
+}
+
+footer {
+   grid-area: foot;      
+}

@@ -74,3 +74,13 @@ input#Reco {
   margin-right: 60%;
   margin-left: 11%; 
 }
+h2#welcome{
+  text-align: center;
+  font-family: 'Terraria', sans-serif;
+  color: rgb(223, 179, 36);
+  background-color: rgb(108, 108, 252);
+  border-radius: 5px;
+  border: 1px, solid rgb(0, 0, 0);
+  margin-left: 25%;
+  margin-right: 25%;
+}

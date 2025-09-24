@@ -14,6 +14,18 @@
   		background-attachment: fixed;
   		background-size: cover;
 	}
+	@media screen and (max-width: 800px) {
+  		body {
+      		grid-template-columns:200px auto 200px;
+			grid-template-rows:50px 300px 50px ;
+  		}
+	}
+	@media screen and (max-width: 600px) {
+  		body {
+      		grid-template-columns:200px auto;
+			grid-template-rows:50px 150px 150px 50px ;
+  		}
+	}
 	</style>
 </head>
 <body>

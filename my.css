@@ -6,6 +6,7 @@ h1#welcome{
 img#logo{
   display: block;
   margin: auto;
+  max-width: 100%;
 }
 p#welcome{
   text-align: center;

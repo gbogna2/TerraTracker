@@ -62,7 +62,7 @@ footer {
   height: 75px;
 }
 #lefttext{
-  text-align: left;
+  text-align: center;
   color: rgb(223, 179, 36);
   background-color: rgb(108, 108, 252);
   border-radius: 5px;

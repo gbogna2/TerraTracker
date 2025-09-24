@@ -14,7 +14,7 @@ p#welcome{
   background-color: rgb(108, 108, 252);
   border-radius: 5px;
   border: 1px, solid rgb(0, 0, 0);
-  margin: 5px;
+  margin: 0px;
 }
 @font-face {
   font-family: 'Terraria';

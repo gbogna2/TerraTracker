@@ -8,6 +8,38 @@
 	<script src="my.js"></script>
 	<title>TerraTracker</title>
 	<style>
+    @keyframes pulse {
+        0% {
+            transform: scale(100%);
+		}
+		0% {
+			transform: rotate(5deg);
+		}	
+		50% {
+			transform: scale(80%);
+		}
+		50% {
+			transform: rotate(-5deg);
+		}		
+		100%{
+			transform: scale(100%);
+		}
+		100%{
+			transform: rotate(5deg);
+		}		
+	}
+    #logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    img#logo{
+  		display: block;
+ 		margin: auto;
+  		max-width: 100%;
+        animation: pulse 10s infinite;
+    }
 	body {
   		background-image: url('Background.png');
 		background-repeat: no-repeat;
@@ -63,7 +95,7 @@
 				display: flex;
 				margin: auto;
 			}
-			td>img {
+			td>a>img {
 				width: 45px;
 				height: 60px;
 			}
@@ -75,35 +107,21 @@
 	<table>
 		<tr>
 			<th>Melee</th>
-			<td><img src="Solar_Flare_armor.png"><p>Melee is a good starter class for those who have just started playing the game. There are many subclasses and tools centered towards this class, most of wich focus on high defence and high attack.</p></td>
+			<td><a href="melee1.html"><img src="Solar_Flare_armor.png"></a><p>Melee is a good starter class for those who have just started playing the game. There are many subclasses and tools centered towards this class, most of wich focus on high defence and high attack.</p></td>
 		</tr>
 		<tr>
 			<th>Ranger</th>
-			<td><img src="Vortex_armor.png"><p>Ranger is good for those who need practice being less agressive or those with a good aim. You have many tools and items that help you stay far away but deal a hefty amount of damage.</p></td>
+			<td><a href="ranger1.html"><img src="Vortex_armor.png"></a><p>Ranger is good for those who need practice being less agressive or those with a good aim. You have many tools and items that help you stay far away but deal a hefty amount of damage.</p></td>
 		</tr>
 		<tr>
 			<th>Mage</th>
-			<td><img src="Nebula_armor.png"><p>Mage is good for stretegists who understand how the game is played. Many of your spells will deal lots of damage, but have a unique gimmick to spice up your run.</p></td>
+			<td><a href="mage1.html"><img src="Nebula_armor.png"></a><p>Mage is good for stretegists who understand how the game is played. Many of your spells will deal lots of damage, but have a unique gimmick to spice up your run.</p></td>
 		</tr>
 		<tr>
 			<th>Summoner</th>
-			<td><img src="Stardust_armor.png"><p>Summoner is typically seen as the hardest to utilize. The first tool you can aquire may take a bit of time, challenging your patience and fortitude. Don't let this sway you away, as this can become one of the more powerful classes in a playthrough. </p></td>
+			<td><a href="summon1.html"><img src="Stardust_armor.png"></a><p>Summoner is typically seen as the hardest to utilize. The first tool you can aquire may take a bit of time, challenging your patience and fortitude. Don't let this sway you away, as this can become one of the more powerful classes in a playthrough. </p></td>
 		</tr>
 	</table>
-	<select id="Class" name="Class">
-		<option value="index.html">Class</option>
-  		<option value="melee1.html">Melee</option>
-  		<option value="ranger1.html">Ranger</option>
-  		<option value="mage1.html">Mage</option>
-  		<option value="summon1.html">Summoner</option>
-		<input type="submit">
-	</select>
-	<script>
-		var urlmenu = document.getElementById('Class');
-		urlmenu.onchange = function() {
-  			window.open( this.options[ this.selectedIndex ].value );
-		};
-	</script>
 	</main>
 	<aside>
 		

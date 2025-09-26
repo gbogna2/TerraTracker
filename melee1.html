@@ -17,7 +17,7 @@
         display: block;
         margin: auto;
         max-width: 40%;
-        max-height: 40%
+        max-height: 40%;
     }
     </style>
 	<title>TerraTracker</title>
@@ -45,20 +45,12 @@
 		td>img#checklist {
 			width: 300px;
 			height: 100px;
+        	max-width: 40%;
+        	max-height: 40%;
 		}
 		table{
 			padding-left: 25%;
 			padding-right: 25%;
-			column-count: auto;
-		}
-		table#items>tr>td{
-			border: 1px solid #000000;
-			display: flex;
-			flex-direction: row;
-			margin: auto;
-			align-items: center;
-			column-count: unset;
-			padding: 10px;
 		}
 	</style>
 	<table>
@@ -82,16 +74,13 @@
 	</table>
 	<table id="items">
 		<tr>
-			<th><h2>Notable Items</h2></th>
+			<th colspan="4"><h2>Notable Items</h2></th>
 		</tr>
 		<tr>
+			<td><img id="nota" src="Platinum_Pickaxe.webp" alt="Platinum_Pickaxe"><img id="nota" src="Gold_Pickaxe.webp" alt="Gold_Pickaxe"><br><p class="nota">Platinum/Gold Pickaxe</p><br><input class="nota" type="checkbox"></td>
+			<td><img id="nota" src="Platinum_armor.webp" alt="Platinum_armor"><img id="nota" src="Gold_armor.webp" alt="Gold_armor"><br><p class="nota">Platinum/Gold Armor</p><br><input class="nota" type="checkbox"></td>	
+			<td><img id="nota" src="Platinum_Pickaxe.webp" alt="Platinum_Pickaxe"><br><p class="nota">Platinum Pickaxe</p><br><input class="nota" type="checkbox"></td>	
 			<td><img id="nota" src="Platinum_Pickaxe.webp" alt="Platinum_Pickaxe"><br><p class="nota">Platinum Pickaxe</p><br><input class="nota" type="checkbox"></td>
-			<td><img id="nota" src="Platinum_Pickaxe.webp" alt="Platinum_Pickaxe"><br><p class="nota">Platinum Pickaxe</p><br><input class="nota" type="checkbox"></td>	
-			<td><img id="nota" src="Platinum_Pickaxe.webp" alt="Platinum_Pickaxe"><br><p class="nota">Platinum Pickaxe</p><br><input class="nota" type="checkbox"></td>	
-			<td><img id="nota" src="Platinum_Pickaxe.webp" alt="Platinum_Pickaxe"><br><p class="nota">Platinum Pickaxe</p><br><input class="nota" type="checkbox"></td>	
-			</td>
-		</tr>
-		<tr>
 			<td><img id="nota" src="Platinum_Pickaxe.webp" alt="Platinum_Pickaxe"><br><p class="nota">Platinum Pickaxe</p><br><input class="nota" type="checkbox"></td>
 			<td><img id="nota" src="Platinum_Pickaxe.webp" alt="Platinum_Pickaxe"><br><p class="nota">Platinum Pickaxe</p><br><input class="nota" type="checkbox"></td>	
 			<td><img id="nota" src="Platinum_Pickaxe.webp" alt="Platinum_Pickaxe"><br><p class="nota">Platinum Pickaxe</p><br><input class="nota" type="checkbox"></td>	

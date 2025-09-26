@@ -40,8 +40,9 @@
    			flex-direction: row;
 			display: flex;
 			margin: auto;
+			align-items: center;
 		}
-		td>img {
+		td>img#checklist {
 			width: 300px;
 			height: 100px;
 		}
@@ -50,24 +51,28 @@
 			padding-right: 25%;
 		}
 	</style>
-	<h1 id="tab">Classic</h1>
 	<table>
+		<tr><th><h1 id="tab">Classic</h1></th></tr>
 		<tr>
 			<th>Starting off</th>
-			<td><img src="Valid_House_Door.webp"></a><p>The best course of action for any class is to start building <a href="https://terraria.wiki.gg/wiki/House" target="_blank">houses.</a> Each house is required to have an area of 60 tiles, a table, and a chair. The shape of the house doesn't matter too much though.</p></td>
+			<td><img id="checklist"src="Valid_House_Door.webp" alt="House"><p>The best course of action for any class is to start building <a href="https://terraria.wiki.gg/wiki/House" target="_blank">houses.</a> Each house is required to have an area of 60 tiles, a table, and a chair. The shape of the house doesn't matter too much though.</p><input type="checkbox"></td>
 		</tr>
 		<tr>
-			<th>R</th>
-			<td><img src="Vortex_armor.png"></a><p>Ranger is good for those who need practice being less agressive or those with a good aim. You have many tools and items that help you stay far away but deal a hefty amount of damage.</p></td>
+			<th>The Mines</th>
+			<td><img id="checklist" src="320px-Solid_tiles_example.webp" alt="Mines"><p>Your next priority is simple, mining. Most of your best weapon options will come from the caves, though it can most certainly be dangerous.<br>You can discover many minerals and abandonded houses that can get you many different useful items. You should also remember to upgrade your pickaxe with your resources, some minerals may be harder too mine than others.</p><input type="checkbox"></td>
 		</tr>
 		<tr>
 			<th>M</th>
-			<td><img src="Nebula_armor.png"></a><p>Mage is good for stretegists who understand how the game is played. Many of your spells will deal lots of damage, but have a unique gimmick to spice up your run.</p></td>
+			<td><img id="checklist" src="Nebula_armor.png"><p>Mage is good for stretegists who understand how the game is played. Many of your spells will deal lots of damage, but have a unique gimmick to spice up your run.</p><input type="checkbox"></td>
 		</tr>
 		<tr>
 			<th>S</th>
-			<td><img src="Stardust_armor.png"></a><p>Summoner is typically seen as the hardest to utilize. The first tool you can aquire may take a bit of time, challenging your patience and fortitude. Don't let this sway you away, as this can become one of the more powerful classes in a playthrough. </p></td>
+			<td><img id="checklist" src="Stardust_armor.png"><p>Summoner is typically seen as the hardest to utilize. The first tool you can aquire may take a bit of time, challenging your patience and fortitude. Don't let this sway you away, as this can become one of the more powerful classes in a playthrough. </p><input type="checkbox"></td>
 		</tr>
+		<tr>
+			<th><h2>Notable Items</h2></th>
+			<td><img id="nota" src="Platinum_Pickaxe.webp" alt="Platinum_Pickaxe"><br><p class="nota">Platinum Pickaxe</p><br><input class="nota" type="checkbox"></td>
+		</tr>		
 	</table>
 </body>
 </html>

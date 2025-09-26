@@ -90,7 +90,16 @@ h1#tab{
   color: rgb(223, 179, 36);
   background-color: rgb(108, 108, 252);
   border-radius: 5px;
-  border: 1px, solid rgb(0, 0, 0);
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100px;
+}
+img#nota{
+  width: 50px;
+  height: 50px;
+}
+#note{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }

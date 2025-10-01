@@ -97,6 +97,10 @@ h1#tab{
 img#nota{
   width: auto;
   height: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
 }
 td>#nota{
   align-items: center;

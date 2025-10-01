@@ -25,6 +25,7 @@ p#welcome{
 p {
   font-family: 'Terraria', sans-serif;
   size: 18px;
+  padding: 5px;
 }
 select {
   display: block;
@@ -79,6 +80,8 @@ h2#welcome{
   border: 1px, solid rgb(0, 0, 0);
   margin-left: 25%;
   margin-right: 25%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 #Reco{
   display: block;

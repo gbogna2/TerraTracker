@@ -102,11 +102,15 @@ img#nota{
   height: auto;
   align-items: center;
   display: flex;
-  flex-direction: column;
   padding-right: 10px;
 }
 td>#nota{
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+td>img{
+  align-items: center;
+  margin: auto;
+  padding: auto;
 }

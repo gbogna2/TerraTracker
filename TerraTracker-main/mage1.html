@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="my.css">
+	<link rel="icon" type="text/css" href="icon.png">
+	<script src="my.js"></script>
+    <style>
+	body {
+  		background-image: url('800px-Forest_background_9.webp');
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+	}
+    #logo2 {
+        display: block;
+        margin: auto;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    </style>
+	<title>TerraTracker</title>
+</head>
+<body>
+    <a href="index.html"><img id="goback" src="icon.png"></a>
+    <img id="logo2" src="TTLogo.png"
+	    alt="TTLogo"
+	>
+	<h2 id="welcome">Welcome to the beginning of the game!</h2>
+	<p id="welcome">There are many precautions you must take to be prepared for what's to come,<br>and it's better to be prepared earlier than too late!</p>
+  <style>
+    table {
+      	border-collapse: collapse;
+    }
+
+    th, td {
+      	background-color: rgb(108, 108, 252);
+      	border: 1px solid #000000;
+      	border-radius: 5px;
+      	text-align: center;
+      	padding: 10px;
+      	color: rgb(223, 179, 36);
+    }
+
+    td > img#checklist {
+		display: inline;
+      	max-width: 150px;
+      	max-height: 100px;
+      	padding: 10px;
+    }
+    button {
+      	background-color: rgb(108, 108, 252);
+      	border: 1px solid #000000;
+      	border-radius: 5px;
+      	text-align: center;
+      	padding: 10px;
+      	color: rgb(223, 179, 36);
+      	display: block;
+      	margin: 20px auto;
+    }
+	.grid-container {
+  		display: grid;
+  		grid-template-columns: repeat(2, auto);
+  		gap: 40px;
+  		justify-content: center;
+  		margin-top: 20px;
+	}
+    th {
+      	text-align: center;
+    }
+  </style>
+	<div id="check">
+		<table>
+			<tr><th colspan="5"><h1>Part One: Pre-Boss Mage</h1></th></tr>
+			<tr>
+				<th>Starting off</th>
+				<th>Exploration</th>
+				<th>The Mines</th>
+				<th>Get a Life</th>
+				<th>Gearing Up</th>
+			</tr>
+			<tr>
+				<td><img id="checklist"src="Valid_House_Door.webp" alt="House"><p>The best course of action for any class is to start building <a href="https://terraria.wiki.gg/wiki/House" target="_blank">houses.</a> Each house is required to have an area of 60 tiles, a table, and a chair. The shape of the house doesn't matter too much though.</p><input type="checkbox"></td>			
+				<td><img id="checklist"src="Player_in_Forest.png" alt="Forest"><p>After building, learn more about your world. Travel so that you mini-map updates and so that you know how your world is structured.</p><input type="checkbox"></td>
+				<td><img id="checklist" src="320px-Solid_tiles_example.webp" alt="Mines"><p>Your next priority is simple, mining. Most of your best weapon options will come from the caves, though it can most certainly be dangerous.<br>You can discover many minerals and abandonded houses that can get you many different useful items. You should also remember to upgrade your pickaxe with your resources, some minerals may be harder too mine than others.</p><input type="checkbox"></td>
+				<td><img id="checklist" src="300px-Two_heart_crystals.webp" alt="Crystals"><p>Even though you won't be getting as close eo enemies, <a href="https://terraria.wiki.gg/wiki/Life_Crystal" target="_blank">life crystals</a> are still important to find. Each life crystal raises your maximun HP by 20 (caps at 400). You don't HAVE to max out your HP yet, but it will deffinetely save you time to do it now. </p><input type="checkbox"></td>
+				<td><img id="checklist" src="Boss_arena.png" alt="Setting_up_arena"><p>Gearing up is important, escpecially before you fight your first boss. Setting up a boss arena is also important, and also very simple to do. You'll set up a long row of platforms (not tiles). Platforms are like tiles, but they allow you fall through and jump through. Set up a couple layers of them, and you should be ready. </p><input type="checkbox"></td>
+			</tr>
+		</table>
+	</div>
+<div class="grid-container">		
+		<table>
+			<tr>
+				<th colspan="7"><h2>Notable Items</h2></th>		
+			</tr>
+			<tr>
+				<td><img id="nota" src="Platinum_Pickaxe.webp" alt="Platinum_Pickaxe1"><img id="nota" src="Gold_Pickaxe.webp" alt="Gold_Pickaxe"><p class="nota">Platinum/Gold Pickaxe</p><input class="nota" type="checkbox"></td>
+				<td><img id="nota" src="Jungle_armor.webp" alt="Jungle_armor"><p class="nota">Jungle Armor</p><input class="nota" type="checkbox"></td>	
+				<td><img id="nota" src="Band_of_Starpower.webp" alt="Band_of_Starpower"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Band_of_Starpower" target="_blank">Band of Starpower</a></p><input class="nota" type="checkbox"></td>	
+				<td><img id="nota" src="Hermes_Boots.webp" alt="Hermes_Boots"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Hermes_Boots" target="_blank">Hermes Boots</a></p><input class="nota" type="checkbox"></td>
+				<td><img id="nota" src="Cloud_in_a_Bottle.webp" alt="Cloud_in_a_Bottle"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Cloud_in_a_Bottle" target="_blank">Cloud in a Bottle</a></p><input class="nota" type="checkbox"></td>
+				<td><img id="nota" src="Wand_of_Sparking.webp" alt="Wand_of_Sparking"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Wand_of_Sparking" target="_blank">Wand of Sparking</a></p><input class="nota" type="checkbox"></td>
+				<td><img id="nota" src="Mana_Crystal.webp" alt="Mana_Crystal"><p class="nota"><p>Mana Crystal</p><input class="nota" type="checkbox"></td>						
+		
+			</tr>
+			<tr>
+				<th colspan="7"><h2>Crafting/Obtainment</h2></th>
+			</tr>
+			<tr>
+				<td><p>10x Gold/Platinum Bar</p><img id="nota" src="Gold_Bar.webp" alt="gold"><img id="nota" src="Platinum_Bar.webp" alt="platinum"><br><p>4x Wood</p><img id="nota" src="Wood.webp" alt="wood"></td>
+				<td><p>32x Jungle Spores</p><img id="nota" src="Jungle_Spores.webp" alt="spores"><br><p>2x Vine</p><img id="nota" src="Vine.webp" alt="Vine"><br><p>10x Stinger</p><img id="nota" src="Stinger.webp" alt="Stinger"></td>
+				<td ><p>Found in Shadow Orbs<br><br>OR</p><p>Mana Crystal</p><img id="nota" src="Mana_Crystal.webp" alt="Mana_Crystal"><p class="nota"><p>Panic Necklace</p><img id="nota" src="Panic_Necklace (1).webp" alt="Panic_Necklace"></td>
+				<td ><p>Found in Undergound<br>Gold Chests</p></td>
+				<td ><p>Found in Undergound<br>Gold Chests</p></td>
+				<td ><p>Found in Undergound<br>Gold Chests</p></td>
+				<td><a href="https://terraria.wiki.gg/wiki/Fallen_Star" target="_blank"><p>5x Fallen Star</p></a><img id="nota" src="Fallen_Star.webp" alt="Star"></td>			
+			</tr>							
+		</table>
+		<table>
+			<tr>
+				<th><h2>Notable Items [Expert/Master Mode]</h2></th>
+			</tr>
+			<tr>
+				<td colspan="6"><p>No effect yet.</p></td>
+			</tr>
+			<tr>
+				<th><h2>Expert Drop</h2></th>
+			</tr>
+			<tr>
+	            <td><p>No bosses fought</p></td>			
+			</tr>
+		</table>
+	</div>
+</div>
+<div class="grid-container">	
+		<table>
+			<tr>
+				<th><h2>Notable NPCs</h2></th>
+			</tr>
+			<tr>
+				<td><img id="nota" src="Map_Icon_Guide.webp" alt="Guide"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Guide" target="_blank">Guide</a></p><input class="nota" type="checkbox"></td>	
+			<tr>
+				<td><img id="nota" src="Map_Icon_Merchant.webp" alt="Merchant"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Merchant" target="_blank">Merchant</a></p><input class="nota" type="checkbox"></td>	
+			</tr>	
+			<tr>	
+				<td><img id="nota" src="Map_Icon_Nurse.webp" alt="Nurse"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Nurse" target="_blank">Nurse</a></p><input class="nota" type="checkbox"></td>
+			</tr>						
+		</table>
+		<table>
+			<tr>
+				<th><h2>Notable Enemies</h2></th>
+			</tr>
+			<tr>
+				<td><img id="nota" src="Zombie.gif" alt="Zombie"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Zombie" target="_blank">Zombie</a></p><input class="nota" type="checkbox"></td>
+			</tr>
+		</table>
+</div>	
+<div id="button">
+	<button>
+		<a href="mage2.html"><p>Next Page</p></a>
+	</button>	
+</div>	
+</body>
+</html>

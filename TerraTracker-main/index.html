@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="my.css">
+	<link rel="icon" type="text/css" href="icon.png">
+	<script src="my.js"></script>
+	<title>TerraTracker</title>
+	<style>
+    @keyframes pulse {
+		0% {
+			transform: rotate(5deg);
+		}
+		12.5%{
+			transform: scale(90%);
+		}
+		25%{
+			transform: rotate(-5deg);
+		}				
+		37.5%{
+			transform: scale(90%);
+		}
+		50%{
+			transform: rotate(5deg);
+		}
+		62.5%{
+			transform: scale(90%);
+		}
+		75%{
+			transform: rotate(-5deg);
+		}
+		87.5%{
+			transform: scale(90%);
+		}
+		100%{
+			transform: scale(100%);
+		}														
+	}
+    #logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    img#logo{
+  		display: block;
+ 		margin: auto;
+  		max-width: 100%;
+        animation: pulse 30s infinite;
+    }
+	body {
+  		background-image: url('Background.png');
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+	}
+	@media screen and (max-width: 800px) {
+  		body {
+      		grid-template-columns:200px auto 200px;
+			grid-template-rows:50px 300px 50px ;
+			grid-template-areas: "head" "nav" "main" "aside" "foot";
+  		}
+	}
+	@media screen and (max-width: 600px) {
+  		body {
+      		grid-template-columns:200px auto;
+			grid-template-rows:50px 150px 150px 50px ;
+			grid-template-areas: "head" "nav" "main" "aside" "foot";
+  		}
+	}
+	@media screen and (max-width: 400px) {
+  		body {
+      		grid-template-columns:150px auto;
+			grid-template-rows:50px 100px 100px 50px ;
+			grid-template-areas: "head" "nav" "main" "aside" "foot";
+  		}
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<a href="index.html"><img id="goback" src="icon.png"></a>
+		<h1 id="welcome">Welcome to...</h1><br><img id="logo" src="TTLogo.png"
+			alt="TTLogo"
+		>
+	</header>
+	<br>
+	<br>
+	<br>
+	<nav><div><p id="welcome"> TerraTracker was created as a way to navigate through the world of Terraria!<br> Start your adventure by selecting your playstyle!</p></div>
+	<p id="welcome"> All assests shown are owned by RE-LOGIC</p>
+	</nav>
+
+	<main>
+		<style>
+			th,td {
+				background-color: rgb(108, 108, 252);
+ 				border: 1px solid #000000;
+				border-radius: 5px;
+  				text-align: center;
+  				padding: 8px;
+				color:rgb(223, 179, 36);
+   				flex-direction: row;
+				display: flex;
+				margin: auto;
+			}
+			td>a>img {
+				width: auto;
+				height: auto;
+				align-items: center;
+				flex-direction: row;
+				display: flex;
+			}
+			table{
+				padding-left: 25%;
+				padding-right: 25%;
+			}
+		</style>
+	<table>
+		<tr>
+			<th>Melee</th>
+			<td><a href="melee1.html"><img src="Solar_Flare_armor.png"></a><p>Melee is a good starter class for those who have just started playing the game. There are many subclasses and tools centered towards this class, most of wich focus on high defence and high attack.</p></td>
+		</tr>
+		<tr>
+			<th>Ranger</th>
+			<td><a href="ranger1.html"><img src="Vortex_armor.png"></a><p>Ranger is good for those who need practice being less agressive or those with a good aim. You have many tools and items that help you stay far away but deal a hefty amount of damage.</p></td>
+		</tr>
+		<tr>
+			<th>Mage</th>
+			<td><a href="mage1.html"><img src="Nebula_armor.png"></a><p>Mage is good for stretegists who understand how the game is played. Many of your spells will deal lots of damage, but have a unique gimmick to spice up your run.</p></td>
+		</tr>
+		<tr>
+			<th>Summoner</th>
+			<td><a href="summon1.html"><img src="Stardust_armor.png"></a><p>Summoner is typically seen as the hardest to utilize. The first tool you can aquire may take a bit of time, challenging your patience and fortitude. Don't let this sway you away, as this can become one of the more powerful classes in a playthrough. </p></td>
+		</tr>
+	</table>
+	</main>
+	<aside>
+		
+	</aside>
+	<footer>
+		<a href="Reccomendations.html"><p>Send me reccomendations on what to add!</p></a><br>
+		<a href="page3.html"><p>Need help? look here!</p></a><br>
+	</footer>
+</body>
+</html>

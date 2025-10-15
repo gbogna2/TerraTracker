@@ -1,0 +1,13 @@
+	<select id="Class" name="Class">
+  		<option value="melee1.html">Melee</option>
+  		<option value="ranger1.html">Ranger</option>
+  		<option value="mage1.html">Mage</option>
+  		<option value="summon1.html">Summoner</option>
+		<input type="submit">
+	</select>
+	<script>
+		var urlmenu = document.getElementById('Class');
+		urlmenu.onchange = function() {
+  			window.open( this.options[ this.selectedIndex ].value );
+		};
+	</script>

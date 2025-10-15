@@ -1,0 +1,138 @@
+h1#welcome{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Terraria', sans-serif;
+}
+img#logo{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+p#welcome{
+  text-align: center;
+  color: rgb(223, 179, 36);
+  background-color: rgb(108, 108, 252);
+  border-radius: 5px;
+  border: 1px, solid rgb(0, 0, 0);
+  margin-left: 25%;
+  margin-right: 25%;
+}
+@font-face {
+  font-family: 'Terraria';
+  src: url('Terraria.TTF') format('truetype');
+}
+
+p {
+  font-family: 'Terraria', sans-serif;
+  size: 18px;
+  padding: 5px;
+}
+select {
+  display: block;
+  margin: auto;
+}
+input {
+  display: block;
+  margin: auto;
+}
+p>a {
+  font-family: 'Terraria', sans-serif;
+  text-align: center;
+}
+header{
+  grid-area: head;
+}
+
+nav {
+   grid-area: nav;      
+}
+
+main {
+   grid-area: main;      
+}
+
+aside {
+   grid-area: aside;      
+}
+
+footer {
+   grid-area: foot;      
+}
+#goback {
+  width: 100px;
+  height: 75px;
+}
+#lefttext{
+  text-align: center;
+  color: rgb(223, 179, 36);
+  background-color: rgb(108, 108, 252);
+  border-radius: 5px;
+  border: 1px, solid rgb(0, 0, 0);
+  margin-left: 3%;
+  margin-right: 77%;
+}
+h2#welcome{
+  text-align: center;
+  font-family: 'Terraria', sans-serif;
+  color: rgb(223, 179, 36);
+  background-color: rgb(108, 108, 252);
+  border-radius: 5px;
+  border: 1px, solid rgb(0, 0, 0);
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#Reco{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+h1#tab{
+  text-align: center;
+  color: rgb(223, 179, 36);
+  background-color: rgb(108, 108, 252);
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100px;
+}
+img#nota{
+  width: auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+  padding-right: 10px;
+}
+td>#nota{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+td>img{
+  align-items: center;
+  margin: auto;
+  padding: auto;
+}  
+table{
+  width: 100%;
+}
+table{
+  width: 100%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1%;
+  justify-content: center;
+  margin-top: 20px;
+}
+.grid-container table {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}

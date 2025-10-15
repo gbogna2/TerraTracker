@@ -32,10 +32,6 @@
   <style>
     table {
       	border-collapse: collapse;
-      	margin: auto;
-      	padding-left: 25%;
-      	padding-right: 25%;
-		align-content: center;
     }
 
     th, td {
@@ -63,7 +59,13 @@
       	display: block;
       	margin: 20px auto;
     }
-
+	.grid-container {
+  		display: grid;
+  		grid-template-columns: repeat(2, auto);
+  		gap: 40px;
+  		justify-content: center;
+  		margin-top: 20px;
+	}
     th {
       	text-align: center;
     }

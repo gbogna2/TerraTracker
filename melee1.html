@@ -32,10 +32,6 @@
   <style>
     table {
       	border-collapse: collapse;
-      	margin: auto;
-      	padding-left: 25%;
-      	padding-right: 25%;
-		align-content: center;
     }
 
     th, td {
@@ -49,8 +45,8 @@
 
     td > img#checklist {
 		display: inline;
-      	width: 150px;
-      	height: 100px;
+      	max-width: 150px;
+      	max-height: 100px;
       	padding: 10px;
     }
     button {
@@ -63,10 +59,17 @@
       	display: block;
       	margin: 20px auto;
     }
-
+	.grid-container {
+  		display: grid;
+  		grid-template-columns: repeat(2, auto);
+  		gap: 40px;
+  		justify-content: center;
+  		margin-top: 20px;
+	}
     th {
       	text-align: center;
     }
+  </style>
   </style>
 	<table>
 		<tr><th colspan="5"><h1>Part One: Pre-Boss Mage</h1></th></tr>
@@ -88,10 +91,10 @@
 			
 		</tr>
 	</table>
+<div class="grid-container">
 	<table>
 		<tr>
 			<th colspan="6"><h2>Notable Items</h2></th>
-			<th><h2>Notable Items [Expert/Master Mode]</h2></th>
 		</tr>
 		<tr>
 			<td><img id="nota" src="Platinum_Pickaxe.webp" alt="Platinum_Pickaxe"><img id="nota" src="Gold_Pickaxe.webp" alt="Gold_Pickaxe"><p class="nota">Platinum/Gold Pickaxe</p><input class="nota" type="checkbox"></td>
@@ -100,11 +103,9 @@
 			<td><img id="nota" src="Hermes_Boots.webp" alt="Hermes_Boots"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Hermes_Boots" target="_blank">Hermes Boots</a></p><input class="nota" type="checkbox"></td>
 			<td><img id="nota" src="Cloud_in_a_Bottle.webp" alt="Cloud_in_a_Bottle"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Cloud_in_a_Bottle" target="_blank">Cloud in a Bottle</a></p><input class="nota" type="checkbox"></td>
 			<td><img id="nota" src="Starfury.webp" alt="Starfury"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Starfury" target="_blank">Starfury</a></p><input class="nota" type="checkbox"></td>			
-			<td><p>No effect yet.</p></td>
 		</tr>
 		<tr>
 			<th colspan="6"><h2>Crafting</h2></th>
-			<th><h2>Expert Drop</h2></th>
 		</tr>
 		<tr>
 			<td><p>10x Gold/Platinum Bar</p><img id="nota" src="Gold_Bar.webp" alt="gold"><img id="nota" src="Platinum_Bar.webp" alt="platinum"><br><p>4x Wood</p><img id="nota" src="Wood.webp" alt="wood"></td>
@@ -113,24 +114,46 @@
 			<td ><p>Found in Undergound<br>Gold Chests</p></td>
 			<td ><p>Found in Undergound<br>Gold Chests</p></td>
 			<td ><p>Found in Sky Island Chests</p></td>
-			<td><p>No bosses fought</p></td>
 		</tr>				
 	</table>
 	<table>
 		<tr>
+			<th><h2>Notable Items [Expert/Master Mode]</h2></th>
+		</tr>
+		<tr>
+			<td><p>No effect yet.</p></td>
+		</tr>	
+		<tr>
+			<th><h2>Expert Drop</h2></th>
+		</tr>
+		<tr>
+			<td><p>No bosses fought</p></td>
+		</tr>		
+	</table>
+</div>
+<div class="grid-container">
+	<table>
+		<tr>
 			<th><h2>Notable NPCs</h2></th>
-			<th><h2>Notable Enemies</h2></th>
 		</tr>
 		<tr>
 			<td><img id="nota" src="Map_Icon_Guide.webp" alt="Guide"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Guide" target="_blank">Guide</a></p><input class="nota" type="checkbox"></td>	
-			<td><img id="nota" src="Zombie.gif" alt="Zombie"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Zombie" target="_blank">Zombie</a></p><input class="nota" type="checkbox"></td>			</tr>
-		<tr>
+		</tr>
+		<tr>	
 			<td><img id="nota" src="Map_Icon_Merchant.webp" alt="Merchant"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Merchant" target="_blank">Merchant</a></p><input class="nota" type="checkbox"></td>	
 		</tr>	
 		<tr>	
 			<td><img id="nota" src="Map_Icon_Nurse.webp" alt="Nurse"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Nurse" target="_blank">Nurse</a></p><input class="nota" type="checkbox"></td>
-		</tr>						
+		</tr>
+	</table>	
+	<table>
+		<tr>
+			<th><h2>Notable Enemies</h2></th>
+		</tr>
+			<td><img id="nota" src="Zombie.gif" alt="Zombie"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Zombie" target="_blank">Zombie</a></p><input class="nota" type="checkbox"></td>			</tr>
+		<tr>						
 	</table>
+</div>	
 	<button>
 		<a href="melee2.html"><p>Next Page</p></a>
 	</button>

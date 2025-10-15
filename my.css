@@ -131,8 +131,15 @@ table{
   width: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .grid-container {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .grid-container table {
+  width: 100%;
   }
 }

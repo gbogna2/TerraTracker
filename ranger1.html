@@ -69,6 +69,20 @@
     th {
       	text-align: center;
     }
+	@media (max-width: 768px) {
+  		.grid-container {
+    		display: flex;
+    		flex-direction: column;
+    		gap: 1%;
+    		justify-content: center;
+    		margin-top: 20px;
+			margin-left: auto;
+			margin-right: auto;
+  		}
+  		.grid-container table {
+  			width: 75%;
+  		}
+	}
   </style>
 	<table>
 		<tr><th colspan="5"><h1>Part One: Pre-Boss Ranger</h1></th></tr>
@@ -93,7 +107,6 @@
 	<table>
 		<tr>
 			<th colspan="6"><h2>Notable Items</h2></th>
-			<th><h2>Notable Items [Expert/Master Mode]</h2></th>
 		</tr>
 		<tr>
 			<td><img id="nota" src="Platinum_Pickaxe.webp" alt="Platinum_Pickaxe"><img id="nota" src="Gold_Pickaxe.webp" alt="Gold_Pickaxe"><p class="nota">Platinum/Gold Pickaxe</p><input class="nota" type="checkbox"></td>
@@ -102,11 +115,9 @@
 			<td><img id="nota" src="Hermes_Boots.webp" alt="Hermes_Boots"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Hermes_Boots" target="_blank">Hermes Boots</a></p><input class="nota" type="checkbox"></td>
 			<td><img id="nota" src="Cloud_in_a_Bottle.webp" alt="Cloud_in_a_Bottle"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Cloud_in_a_Bottle" target="_blank">Cloud in a Bottle</a></p><input class="nota" type="checkbox"></td>
 			<td><img id="nota" src="Boomstick.webp" alt="Starfury"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Boomstick" target="_blank">Boomstick</a></p><input class="nota" type="checkbox"></td>			
-			<td><p>No effect yet.</p></td>
 		</tr>	
 		<tr>
 			<th colspan="6"><h2>Crafting</h2></th>
-			<th><h2>Expert Drop</h2></th>
 		</tr>
 		<tr>
 			<td><p>10x Gold/Platinum Bar</p><img id="nota" src="Gold_Bar.webp" alt="gold"><img id="nota" src="Platinum_Bar.webp" alt="platinum"><br><p>4x Wood</p><img id="nota" src="Wood.webp" alt="wood"></td>
@@ -114,19 +125,30 @@
 			<td ><p>Found in Undergound<br>Gold Chests</p></td>
 			<td ><p>Found in Undergound<br>Gold Chests</p></td>
 			<td ><p>Found in Undergound<br>Gold Chests</p></td>
-			<td ><p>Found in<br>Underground Jungle Chests</p></td>
-            <td><p>No bosses fought</p></td>			
+			<td ><p>Found in<br>Underground Jungle Chests</p></td>			
 		</tr>				
 	</table>			
-	</table>
+	<table>
+		<tr>
+			<th><h2>Notable Items [Expert/Master Mode]</h2></th>
+		</tr>
+		<tr>
+			<td colspan="6"><p>No effect yet.</p></td>
+		</tr>
+		<tr>
+			<th><h2>Expert Drop</h2></th>
+		</tr>
+		<tr>
+	       <td><p>No bosses fought</p></td>			
+		</tr>
+	</table>	
 	<table>
 		<tr>
 			<th><h2>Notable NPCs</h2></th>
-			<th><h2>Notable Enemies</h2></th>
 		</tr>
 		<tr>
 			<td><img id="nota" src="Map_Icon_Guide.webp" alt="Guide"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Guide" target="_blank">Guide</a></p><input class="nota" type="checkbox"></td>	
-			<td><img id="nota" src="Zombie.gif" alt="Zombie"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Zombie" target="_blank">Zombie</a></p><input class="nota" type="checkbox"></td>			</tr>
+		</tr>
 		<tr>
 			<td><img id="nota" src="Map_Icon_Merchant.webp" alt="Merchant"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Merchant" target="_blank">Merchant</a></p><input class="nota" type="checkbox"></td>	
 		</tr>	
@@ -137,6 +159,20 @@
 			<td><img id="nota" src="Map_Icon_Arms_Dealer.webp" alt="ArmsDealer"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Nurse" target="_blank">Arms Dealer</a></p><input class="nota" type="checkbox"></td>
 		</tr>				
 	</table>
+	<table>
+		<tr>
+			<th><h2>Notable Enemies</h2></th>
+		</tr>
+		<tr>
+			<td><img id="nota" src="Zombie.gif" alt="Zombie"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Zombie" target="_blank">Zombie</a></p><input class="nota" type="checkbox"></td>
+		</tr>
+		<tr>
+			<td><img id="nota" src="Demon_Eye.gif" alt="Demon_Eye"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Demon_Eye" target="_blank">Demon Eye</a></p><input class="nota" type="checkbox"></td>
+		</tr>
+		<tr>
+			<td><img id="nota" src="Blue_Slime.gif" alt="Blue_Slime"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Slimes" target="_blank">Blue Slime</a></p><input class="nota" type="checkbox"></td>
+		</tr>						
+	</table>	
 	<button>
 		<a href="ranger2.html"><p>Next Page</p></a>
 	</button>

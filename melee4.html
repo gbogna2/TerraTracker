@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="my.css">
+	<link rel="icon" type="text/css" href="icon.png">
+	<script src="my.js"></script>
+    <style>
+	body {
+  		background-image: url('800px-Forest_background_9.webp');
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+	}
+    #logo2 {
+        display: block;
+        margin: auto;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    </style>
+	<title>TerraTracker</title>
+</head>
+<body>
+    <a href="index.html"><img id="goback" src="icon.png"></a>
+    <img id="logo2" src="TTLogo.png"
+	    alt="TTLogo"
+	>
+	<h2 id="welcome">Now that you've gotten a handle on things, it's time for you to fight your first boss!</h2>
+	<p id="welcome">The gear you have obtained and the arena you have created will be very useful, now get out there and win!</p>
+  <style>
+    table {
+      	border-collapse: collapse;
+    }
+
+    th, td {
+      	background-color: rgb(108, 108, 252);
+      	border: 1px solid #000000;
+      	border-radius: 5px;
+      	text-align: center;
+      	padding: 10px;
+      	color: rgb(223, 179, 36);
+    }
+
+    td > img#checklist {
+		display: inline;
+      	max-width: 150px;
+      	max-height: 100px;
+      	padding: 10px;
+    }
+    button {
+      	background-color: rgb(108, 108, 252);
+      	border: 1px solid #000000;
+      	border-radius: 5px;
+      	text-align: center;
+      	padding: 10px;
+      	color: rgb(223, 179, 36);
+      	display: block;
+      	margin: 20px auto;
+    }
+	.grid-container {
+  		display: grid;
+  		grid-template-columns: repeat(2, auto);
+  		gap: 40px;
+  		justify-content: center;
+  		margin-top: 20px;
+	}
+    th {
+      	text-align: center;
+    }
+	@media (max-width: 768px) {
+  		.grid-container {
+    		display: flex;
+    		flex-direction: column;
+    		gap: 1%;
+    		justify-content: center;
+    		margin-top: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0px;
+			font-size: 10px;
+  		}
+  		.grid-container table {
+  			width: 75%;
+  		}
+		img#checklist{
+			width: 55px;
+			height: 40px;
+			margin: auto;
+		}
+		img#nota{
+			width: 40%;
+			height: 40%;
+			margin: auto;
+		}
+		table{
+			align-self: center;
+		}
+		th, td {
+			padding: 5px;
+			font-size: 10px;
+		}
+		td > img#checklist {
+			display: inline;
+      		padding: 5px;
+    }
+}
+</style>
+<div class="grid-container">
+	<table>
+		<tr><th colspan="5"><h1>Part Two: Eye of Cthulhu Melee</h1></th></tr>
+		<tr>
+			<th>Demonic Purge</th>
+			<th>The Evil of the World</th>
+			<th>Boss Fight #1</th>
+		</tr>
+		<tr>
+			<td><img id="checklist"src="maxresdefault.jpg" alt="Night"><p>The best course of action for any class is to start building <a href="https://terraria.wiki.gg/wiki/House" target="_blank">houses.</a> Each house is required to have an area of 60 tiles, a table, and a chair. The shape of the house doesn't matter too much though.</p><input type="checkbox"></td>			
+			<td><img id="checklist"src="Corrupt_Desert_Biome.webp" alt="Corruption"><p>After building, learn more about your world. Travel so that you mini-map updates and so that you know how your world is structured.</p><input type="checkbox"></td>
+			<td><img id="checklist" src="Eye_Of_Cthulhu_Fight.jpg" alt="Boss_Fight"><p>Your next priority is simple, mining. Most of your best weapon options will come from the caves, though it can most certainly be dangerous.<br>You can discover many minerals and abandonded houses that can get you many different useful items. You should also remember to upgrade your pickaxe with your resources, some minerals may be harder too mine than others.</p><input type="checkbox"></td>
+		</tr>	
+	</table>
+</div>	
+<div class="grid-container">
+	<table>
+		<tr>
+			<th colspan="6"><h2>Notable Items</h2></th>
+		</tr>
+		<tr>
+			<td><img id="nota" src="Platinum_Pickaxe.webp" alt="Platinum_Pickaxe"><img id="nota" src="Gold_Pickaxe.webp" alt="Gold_Pickaxe"><p class="nota">Platinum/Gold Pickaxe</p><input class="nota" type="checkbox"></td>
+			<td><img id="nota" src="Platinum_armor.webp" alt="Platinum_armor"><img id="nota" src="Gold_armor.webp" alt="Gold_armor"><p class="nota">Platinum/Gold Armor</p><input class="nota" type="checkbox"></td>	
+			<td><img id="nota" src="Band_of_Regeneration.webp" alt="Band_of_Regeneration"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Band_of_Regeneration" target="_blank">Band of Regeneration</a></p><input class="nota" type="checkbox"></td>	
+			<td><img id="nota" src="Hermes_Boots.webp" alt="Hermes_Boots"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Hermes_Boots" target="_blank">Hermes Boots</a></p><input class="nota" type="checkbox"></td>
+			<td><img id="nota" src="Cloud_in_a_Bottle.webp" alt="Cloud_in_a_Bottle"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Cloud_in_a_Bottle" target="_blank">Cloud in a Bottle</a></p><input class="nota" type="checkbox"></td>
+			<td><img id="nota" src="Starfury.webp" alt="Starfury"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Starfury" target="_blank">Starfury</a></p><input class="nota" type="checkbox"></td>			
+		</tr>
+		<tr>
+			<th colspan="6"><h2>Crafting</h2></th>
+		</tr>
+		<tr>
+			<td><p>10x Gold/Platinum Bar</p><img id="nota" src="Gold_Bar.webp" alt="gold"><img id="nota" src="Platinum_Bar.webp" alt="platinum"><br><p>4x Wood</p><img id="nota" src="Wood.webp" alt="wood"></td>
+			<td><p>75x Gold/Platinum Bar</p><img id="nota" src="Gold_Bar.webp" alt="gold"><img id="nota" src="Platinum_Bar.webp" alt="platinum"></td>
+			<td ><p>Found in Undergound Gold Chests</p></td>
+			<td ><p>Found in Undergound Gold Chests</p></td>
+			<td ><p>Found in Undergound Gold Chests</p></td>
+			<td ><p>Found in Sky Island Chests</p></td>
+		</tr>				
+	</table>
+	<table>
+		<tr>
+			<th><h2>Notable Items [Expert/Master Mode]</h2></th>
+		</tr>
+		<tr>
+			<td><p>No effect yet.</p></td>
+		</tr>	
+		<tr>
+			<th><h2>Expert Drop</h2></th>
+		</tr>
+		<tr>
+			<td><p>No bosses fought</p></td>
+		</tr>		
+	</table>
+</div>
+<div class="grid-container">
+	<table>
+		<tr>
+			<th><h2>Notable NPCs</h2></th>
+		</tr>
+		<tr>
+			<td><img id="npc" src="Map_Icon_Dryad.webp" alt="Dryad"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Dryad" target="_blank">Dryad</p><input class="nota" type="checkbox"></td>	
+		</tr>
+	</table>	
+	<table>
+		<tr>
+			<th colspan="2"><h2>Notable Bosses</h2></th>
+		</tr>
+		<tr>
+			<td><img id="npc" src="Eye_of_Cthulhu_(Phase_1).gif" alt="Eye_of_Cthulhu"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Eye_of_Cthulhu" target="_blank">Eye of Cthulhu</a></p><input class="nota" type="checkbox"></td>
+		</tr>
+	</table>
+</div>	
+	<button>
+		<a href="melee5.html"><p>Next Page</p></a>
+	</button>
+</body>
+</html>

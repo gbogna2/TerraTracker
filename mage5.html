@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="my.css">
+	<link rel="icon" type="text/css" href="icon.png">
+	<script src="my.js"></script>
+    <style>
+	body {
+  		background-image: url('800px-Forest_background_9.webp');
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+	}
+    #logo2 {
+        display: block;
+        margin: auto;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    </style>
+	<title>TerraTracker</title>
+</head>
+<body>
+    <a href="index.html"><img id="goback" src="icon.png"></a>
+    <img id="logo2" src="TTLogo.png"
+	    alt="TTLogo"
+	>
+	<h2 id="welcome">Prepare for this carefully, this boss will be like nothing you have faced before.</h2>
+	<p id="welcome">The gear you have obtained and the arena you have created will be very useful, now get out there and win!</p>
+  <style>
+    table {
+      	border-collapse: collapse;
+    }
+
+    th, td {
+      	background-color: rgb(108, 108, 252);
+      	border: 1px solid #000000;
+      	border-radius: 5px;
+      	text-align: center;
+      	padding: 10px;
+      	color: rgb(223, 179, 36);
+    }
+
+    td > img#checklist {
+		display: inline;
+      	max-width: 150px;
+      	max-height: 100px;
+      	padding: 10px;
+    }
+    button {
+      	background-color: rgb(108, 108, 252);
+      	border: 1px solid #000000;
+      	border-radius: 5px;
+      	text-align: center;
+      	padding: 10px;
+      	color: rgb(223, 179, 36);
+      	display: block;
+      	margin: 20px auto;
+    }
+	.grid-container {
+  		display: grid;
+  		grid-template-columns: repeat(2, auto);
+  		gap: 40px;
+  		justify-content: center;
+  		margin-top: 20px;
+	}
+    th {
+      	text-align: center;
+    }
+	@media (max-width: 768px) {
+  		.grid-container {
+    		display: flex;
+    		flex-direction: column;
+    		gap: 1%;
+    		justify-content: center;
+    		margin-top: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0px;
+			font-size: 10px;
+  		}
+  		.grid-container table {
+  			width: 75%;
+  		}
+		img#checklist{
+			width: 55px;
+			height: 40px;
+			margin: auto;
+		}
+		img#nota{
+			width: 40%;
+			height: 40%;
+			margin: auto;
+		}
+		table{
+			align-self: center;
+		}
+		th, td {
+			padding: 5px;
+			font-size: 10px;
+		}
+		td > img#checklist {
+			display: inline;
+      		padding: 5px;
+    }
+}
+</style>
+<div class="grid-container">
+	<table>
+		<tr><th colspan="5"><h1>Part Five: The Wall of Flesh Melee</h1></th></tr>
+		<tr>
+			<th>Long Preparations</th>
+			<th>Boss Fight #4</th>
+		</tr>
+		<tr>
+			<td><img id="checklist"src="HellBridge.jpg" alt="Night"><p>To prepare for your next foe, the best precaution I can give is to create a long bridge through the underworld. A lot of this fight will be you running away, so the best way to do that is by giving yourself lots of room to do so.</p><input type="checkbox"></td>			
+			<td><img id="checklist"src="Wall_Of_Flesh2.webp" alt="Wall Of Flesh"><p>After building the bridge, find an imp holding a guide doll. You will need to take the doll from it and throw it into the lava to start the fight.</p><input type="checkbox"></td>
+		</tr>	
+	</table>
+</div>	
+<div class="grid-container">
+	<table>
+		<tr>
+			<th colspan="6"><h2>Notable Items</h2></th>
+		</tr>
+		<tr>
+			<td><img id="nota" src="Night's_Edge.webp" alt="Night's_Edge"><p>Night's Edge</p><input class="nota" type="checkbox"></td>
+		</tr>
+		<tr>
+			<th colspan="6"><h2>Crafting</h2></th>
+		</tr>
+		<tr>
+			<td><p>Volcano</p><img id="nota" src="Volcano.png" alt="Volcano"><p>Muramasa</p><img id="nota" src="Muramasa.webp" alt="Muramasa"><br><p>Blade Of Grass</p><img id="nota" src="Blade_of_Grass.webp" alt="Blade_of_Grass"><p>Light's Bane</p><img id="nota" src="Light's_Bane.webp" alt="Light's_Bane"></td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<th><h2>Notable Items [Expert/Master Mode]</h2></th>
+		</tr>
+		<tr>
+			<td><img id="nota" src="Demon_Heart.webp" alt="Demon_Heart"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Demon_Heart" target="_blank">Demon Heart</a></p><input class="nota" type="checkbox"></td>
+		</tr>	
+		<tr>
+			<th><h2>Expert Drop</h2></th>
+		</tr>
+		<tr>
+			<td><img id="npc" src="Wall_of_Flesh.gif" alt="Wall of Flesh"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Wall_of_Flesh" target="_blank">Wall of Flesh</a></p><input class="nota" type="checkbox"></td>
+		</tr>		
+	</table>
+</div>
+<div class="grid-container">
+	<table>
+		<tr>
+			<th><h2>Notable NPCs</h2></th>
+		</tr>
+		<tr>
+			<td><img id="npc" src="Map_Icon_Guide.webp" alt="Guide"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Guide" target="_blank">Guide</a></p><input class="nota" type="checkbox"></td>	
+		</tr>
+	</table>	
+	<table>
+		<tr>
+			<th colspan="2"><h2>Notable Enemies/Bosses</h2></th>
+		</tr>
+		<tr>
+			<td><img id="npc" src="Voodoo_Demon.gif" alt="Voodoo_Demon"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Voodoo_Demon" target="_blank">Voodoo Demon</a></p><input class="nota" type="checkbox"></td>
+		</tr>		
+		<tr>
+			<td><img id="npc" src="Wall_of_Flesh.gif" alt="Wall_of_Flesh"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Wall_of_Flesh" target="_blank">Wall of Flesh</a></p><input class="nota" type="checkbox"></td>
+		</tr>
+	</table>
+</div>	
+	<button>
+		<a href="mage6.html"><p>Next Page</p></a>
+	</button>
+</body>
+</html>

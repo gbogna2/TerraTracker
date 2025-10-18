@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="my.css">
+	<link rel="icon" type="text/css" href="icon.png">
+	<script src="my.js"></script>
+    <style>
+	body {
+  		background-image: url('800px-Forest_background_9.webp');
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+	}
+    #logo2 {
+        display: block;
+        margin: auto;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    </style>
+	<title>TerraTracker</title>
+</head>
+<body>
+    <a href="index.html"><img id="goback" src="icon.png"></a>
+    <img id="logo2" src="TTLogo.png"
+	    alt="TTLogo"
+	>
+	<h2 id="welcome">With your second boss down, You should be ready for whats next to come.</h2>
+	<p id="welcome">Preparation is important for this stage and the next stage of the game, so be careful.</p>
+  <style>
+    table {
+      	border-collapse: collapse;
+    }
+
+    th, td {
+      	background-color: rgb(108, 108, 252);
+      	border: 1px solid #000000;
+      	border-radius: 5px;
+      	text-align: center;
+      	padding: 10px;
+      	color: rgb(223, 179, 36);
+    }
+
+    td > img#checklist {
+		display: inline;
+      	max-width: 150px;
+      	max-height: 100px;
+      	padding: 10px;
+    }
+    button {
+      	background-color: rgb(108, 108, 252);
+      	border: 1px solid #000000;
+      	border-radius: 5px;
+      	text-align: center;
+      	padding: 10px;
+      	color: rgb(223, 179, 36);
+      	display: block;
+      	margin: 20px auto;
+    }
+	.grid-container {
+  		display: grid;
+  		grid-template-columns: repeat(2, auto);
+  		gap: 40px;
+  		justify-content: center;
+  		margin-top: 20px;
+	}
+    th {
+      	text-align: center;
+    }
+	@media (max-width: 768px) {
+  		.grid-container {
+    		display: flex;
+    		flex-direction: column;
+    		gap: 1%;
+    		justify-content: center;
+    		margin-top: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0px;
+			font-size: 10px;
+  		}
+  		.grid-container table {
+  			width: 75%;
+  		}
+		img#checklist{
+			width: 55px;
+			height: 40px;
+			margin: auto;
+		}
+		img#nota{
+			width: 40%;
+			height: 40%;
+			margin: auto;
+		}
+		table{
+			align-self: center;
+		}
+		th, td {
+			padding: 5px;
+			font-size: 10px;
+		}
+		td > img#checklist {
+			display: inline;
+      		padding: 5px;
+    }
+}
+</style>
+<div class="grid-container">
+	<table>
+		<tr><th colspan="5"><h1>Part Four: Skeletron and the Underworld Melee</h1></th></tr>
+		<tr>
+			<th>The Deep End</th>
+			<th>It isn't a Castle</th>
+			<th>Boss Fight #3</th>
+		</tr>
+		<tr>
+			<td><img id="checklist"src="OldUnderworldBG.png" alt="Hell"><p>After your last fight, your next step is to go to the underworld. The underworld is a dangerous place, but it's also where you'll find some of the most powerful items at the moment.</p><input type="checkbox"></td>			
+			<td><img id="checklist"src="Capture-2022-08-09-10_21_23-(2).jpg" alt="Dungeon"><p>After gearing up, your next priority should be taking down your next boss, Skeletron. He is located in the dungeon, though the keeper of the dungeon will tell you to come back when night falls.</p><input type="checkbox"></td>
+			<td><img id="checklist" src="Skeletron.jpg" alt="Boss_Fight4"><p>Skeletron is the third boss you will face, and he is composed of three entities. His head is the main component, though your attacks will be weakened before you take out his hands.</p><input type="checkbox"></td>
+		</tr>	
+	</table>
+</div>	
+<div class="grid-container">
+	<table>
+		<tr>
+			<th colspan="6"><h2>Notable Items</h2></th>
+		</tr>
+		<tr>
+			<td><img id="nota" src="Molten_Pickaxe.webp" alt="Molten_Pickaxe"><p>Molten Pickaxe</p><input class="nota" type="checkbox"></td>
+			<td><img id="nota" src="Molten_armor.webp" alt="Molten_armor"><p>Molten Armor</p><input class="nota" type="checkbox"></td>	
+			<td><img id="nota" src="Volcano.png" alt="Volcano"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Volcano" target="_blank">Volcano</a></p><input class="nota" type="checkbox"></td>	
+			<td><img id="nota" src="Obsidian_Skull.webp" alt="Obsidian_Skull"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Obsidian_Skull" target="_blank">Obsidian Skull</a></p><input class="nota" type="checkbox"></td>	
+		</tr>
+		<tr>
+			<th colspan="6"><h2>Crafting</h2></th>
+		</tr>
+		<tr>
+			<td><p>20x Hellstone Bar</p><img id="nota" src="Hellstone_Bar.png" alt="hellstone"></td>
+			<td><p>45x Hellstone Bar</p><img id="nota" src="Hellstone_Bar.png" alt="hellstone"></td>
+			<td><p>20x Hellstone Bar</p><img id="nota" src="Hellstone_Bar.png" alt="hellstone"></td>
+			<td><p>20x Obsidian</p><img id="nota" src="Obsidian.webp" alt="obsidian"></td>
+		</tr>				
+	</table>
+	<table>
+		<tr>
+			<th><h2>Notable Items [Expert/Master Mode]</h2></th>
+		</tr>
+		<tr>
+			<td><img id="nota" src="Bone_Glove.webp" alt="Bone_Glove"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Bone_Glove" target="_blank">Bone Glove</a></p><input class="nota" type="checkbox"></td>
+		</tr>	
+		<tr>
+			<th><h2>Expert Drop</h2></th>
+		</tr>
+		<tr>
+			<td><img id="npc" src="Skeletron_Head.webp" alt="Skeletron"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Skeletron" target="_blank">Skeletron</a></p><input class="nota" type="checkbox"></td>
+		</tr>		
+	</table>
+</div>
+<div class="grid-container">
+	<table>
+		<tr>
+			<th><h2>Notable NPCs</h2></th>
+		</tr>
+		<tr>
+			<td><img id="npc" src="Map_Icon_Goblin_Tinkerer.webp" alt="Goblin Tinkerer"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Goblin_Tinkerer" target="_blank">Goblin Tinkerer</a></p><input class="nota" type="checkbox"></td>	
+		</tr>
+	</table>	
+	<table>
+		<tr>
+			<th colspan="2"><h2>Notable Bosses</h2></th>
+		</tr>
+		<tr>
+			<td><img id="npc" src="Skeletron_Head.webp" alt="Skeletron"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Skeletron" target="_blank">Skeletron</a></p><input class="nota" type="checkbox"></td>
+		</tr>
+	</table>
+</div>	
+	<button>
+		<a href="ranger5.html"><p>Next Page</p></a>
+	</button>
+</body>
+</html>

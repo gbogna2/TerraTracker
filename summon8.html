@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="my.css">
+	<link rel="icon" type="text/css" href="icon.png">
+	<script src="my.js"></script>
+    <style>
+	body {
+  		background-image: url('800px-Forest_background_9.webp');
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+	}
+    #logo2 {
+        display: block;
+        margin: auto;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    </style>
+	<title>TerraTracker</title>
+</head>
+<body>
+    <a href="index.html"><img id="goback" src="icon.png"></a>
+    <img id="logo2" src="TTLogo.png"
+	    alt="TTLogo"
+	>
+	<h2 id="welcome">You know what to do by know, get ready for your next boss!</h2>
+	<p id="welcome">The farther you get, the stronger you'll get too!</p>
+  <style>
+    table {
+      	border-collapse: collapse;
+    }
+
+    th, td {
+      	background-color: rgb(108, 108, 252);
+      	border: 1px solid #000000;
+      	border-radius: 5px;
+      	text-align: center;
+      	padding: 10px;
+      	color: rgb(223, 179, 36);
+    }
+
+    td > img#checklist {
+		display: inline;
+      	max-width: 150px;
+      	max-height: 100px;
+      	padding: 10px;
+    }
+    button {
+      	background-color: rgb(108, 108, 252);
+      	border: 1px solid #000000;
+      	border-radius: 5px;
+      	text-align: center;
+      	padding: 10px;
+      	color: rgb(223, 179, 36);
+      	display: block;
+      	margin: 20px auto;
+    }
+	.grid-container {
+  		display: grid;
+  		grid-template-columns: repeat(2, auto);
+  		gap: 40px;
+  		justify-content: center;
+  		margin-top: 20px;
+	}
+    th {
+      	text-align: center;
+    }
+	@media (max-width: 768px) {
+  		.grid-container {
+    		display: flex;
+    		flex-direction: column;
+    		gap: 1%;
+    		justify-content: center;
+    		margin-top: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0px;
+			font-size: 10px;
+  		}
+  		.grid-container table {
+  			width: 75%;
+  		}
+		img#checklist{
+			width: 55px;
+			height: 40px;
+			margin: auto;
+		}
+		img#nota{
+			width: 40%;
+			height: 40%;
+			margin: auto;
+		}
+		table{
+			align-self: center;
+		}
+		th, td {
+			padding: 5px;
+			font-size: 10px;
+		}
+		td > img#checklist {
+			display: inline;
+      		padding: 5px;
+    }
+}
+</style>
+<div class="grid-container">
+	<table>
+		<tr><th colspan="5"><h1>Part Eight: Mech Bosses Summoner</h1></th></tr>
+		<tr>
+			<th>Boss Fight #6</th>
+			<th>Boss Fight #7</th>
+			<th>Boss Fight #8</th>						
+		</tr>
+		<tr>
+			<td><img id="checklist"src="TwinsFight.jpg" alt="Twins Fight"><p>Not much prep is needed, as you can re-use the same arena you made when you fought the Eye of Cthulhu for these next bosses. The first boss you will fight are the twins. This fight will be very difficult, seeing as there are two enemies you have to fight, but it is possible. But do not worry, if this one is too hard at the moment, you can come back later after defeating a different mech.</p><input type="checkbox"></td>			
+			<td><img id="checklist"src="Wormboss.jpg" alt="Destroyer Fight"><p>Another mech boss you must face is the Destroyer. Although this boss has the most Defense, it might take a while to defeat. Due to it's segments though, the damage output can be quite high.</p><input type="checkbox"></td>
+			<td><img id="checklist" src="Skullboss.jpg" alt="SkeletronPrime Fight"><p>The last mech boss you will fight is Skeletron Prime. This boss is a bit trickier, due to its 5 different points of attack, but you can create patterns of attack to avoid getting hit by him.</p><input type="checkbox"></td>
+		</tr>	
+	</table>
+</div>	
+<div class="grid-container">
+	<table>
+		<tr>
+			<th colspan="6"><h2>Notable Items</h2></th>
+		</tr>
+		<tr>
+			<td><img id="nota" src="Drax.webp" alt="Drax"><p class="nota">Drax</p><input class="nota" type="checkbox"></td>
+			<td><img id="nota" src="Hallowed_armor.webp" alt="Hallowed_armor"><img id="nota"></p>Hallowed Armor</p><input class="nota" type="checkbox"></td>	
+			<td><img id="nota" src="Durendal.webp" alt="Durendal"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Durendal" target="_blank">Durendal</a></p><input class="nota" type="checkbox"></td>
+			<td><img id="nota" src="Life_Fruit.webp" alt="Life Fruit"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Life_Fruit" target="_blank">20x Life Fruit</a></p><input class="nota" type="checkbox"></td>			
+		</tr>
+		<tr>
+			<th colspan="6"><h2>Crafting</h2></th>
+		</tr>
+		<tr>
+			<td><p>18x Hallowed Bar</p><img id="nota" src="Hallowed_Bar.webp" alt="hallowed bar"><p>Soul of Sight</p><img id="nota" src="Soul_of_Sight.gif" alt="Soul of Sight"><p>Soul of Might</p><img id="nota" src="Soul_of_Might.gif" alt="Soul of Might"><p>Soul of Fright</p><img id="nota" src="Soul_of_Fright.gif" alt="Soul of Fright"></td>
+			<td><p>54x Hallowed Bar</p><img id="nota" src="Hallowed_Bar.webp" alt="hallowed bar"></td>
+			<td><p>12x Hallowed Bar</p><img id="nota" src="Hallowed_Bar.webp" alt="hallowed bar"></td>
+			<td><p>Obtainable after defeating any Mech Boss,<br>found in the underground jungle.</p></td>
+		</tr>				
+	</table>
+	<table>
+		<tr>
+			<th><h2>Notable Items [Expert/Master Mode]</h2></th>
+		</tr>
+		<tr>
+			<td><p>No effect yet.</p></td>
+		</tr>	
+		<tr>
+			<th><h2>Expert Drop</h2></th>
+		</tr>
+		<tr>
+			<td><p>No bosses fought</p></td>
+		</tr>		
+	</table>
+</div>
+<div class="grid-container">
+	<table>
+		<tr>
+			<th><h2>Notable NPCs</h2></th>
+		</tr>
+		<tr>
+			<td><p class="nota">None</p></td>	
+		</tr>
+	</table>	
+	<table>
+		<tr>
+			<th colspan="3"><h2>Notable Bosses</h2></th>
+		</tr>
+		<tr>
+			<td><img id="nota" src="150px-Twins_(first_form).gif" alt="Twins"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Twins" target="_blank">Twins</a></p><input class="nota" type="checkbox"></td>
+			<td><img id="nota" src="The_Destroyer.png" alt="The Destroyer"><p class="nota"><a href="https://terraria.wiki.gg/wiki/The_Destroyer" target="_blank">The Destroyer</a></p><input class="nota" type="checkbox"></td>
+			<td><img id="nota" src="Skeletron_Prime_head.gif" alt="Skeletron Prime"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Skeletron_Prime" target="_blank">Skeletron Prime</a></p><input class="nota" type="checkbox"></td>
+		</tr>
+	</table>
+</div>	
+	<button>
+		<a href="summon9.html"><p>Next Page</p></a>
+	</button>
+</body>
+</html>

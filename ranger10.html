@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="my.css">
+	<link rel="icon" type="text/css" href="icon.png">
+	<script src="my.js"></script>
+    <style>
+	body {
+  		background-image: url('800px-Forest_background_9.webp');
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+	}
+    #logo2 {
+        display: block;
+        margin: auto;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    </style>
+	<title>TerraTracker</title>
+</head>
+<body>
+    <a href="index.html"><img id="goback" src="icon.png"></a>
+    <img id="logo2" src="TTLogo.png"
+	    alt="TTLogo"
+	>
+	<h2 id="welcome">You've made it to the end!</h2>
+	<p id="welcome">Good luck, as your impending doom approaches</p>
+  <style>
+    table {
+      	border-collapse: collapse;
+    }
+
+    th, td {
+      	background-color: rgb(108, 108, 252);
+      	border: 1px solid #000000;
+      	border-radius: 5px;
+      	text-align: center;
+      	padding: 10px;
+      	color: rgb(223, 179, 36);
+    }
+
+    td > img#checklist {
+		display: inline;
+      	max-width: 150px;
+      	max-height: 100px;
+      	padding: 10px;
+    }
+    button {
+      	background-color: rgb(108, 108, 252);
+      	border: 1px solid #000000;
+      	border-radius: 5px;
+      	text-align: center;
+      	padding: 10px;
+      	color: rgb(223, 179, 36);
+      	display: block;
+      	margin: 20px auto;
+    }
+	.grid-container {
+  		display: grid;
+  		grid-template-columns: repeat(2, auto);
+  		gap: 40px;
+  		justify-content: center;
+  		margin-top: 20px;
+	}
+    th {
+      	text-align: center;
+    }
+	@media (max-width: 768px) {
+  		.grid-container {
+    		display: flex;
+    		flex-direction: column;
+    		gap: 1%;
+    		justify-content: center;
+    		margin-top: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0px;
+			font-size: 10px;
+  		}
+  		.grid-container table {
+  			width: 75%;
+  		}
+		img#checklist{
+			width: 55px;
+			height: 40px;
+			margin: auto;
+		}
+		img#nota{
+			width: 40%;
+			height: 40%;
+			margin: auto;
+		}
+		table{
+			align-self: center;
+		}
+		th, td {
+			padding: 5px;
+			font-size: 10px;
+		}
+		td > img#checklist {
+			display: inline;
+      		padding: 5px;
+    	}
+		img#npc2 {
+			width: 30%;
+			height: 30%;
+			margin: auto;
+    	}		
+	}
+</style>
+<div class="grid-container">
+	<table>
+		<tr><th colspan="5"><h1>Part Ten: Finale Melee</h1></th></tr>
+		<tr>
+			<th>Back to the Dungeon</th>
+			<th>Boss Fight #11</th>
+			<th>The Celestial Pillars</th>			
+			<th>Boss Fight #12</th>
+			<th>The End</th>
+		</tr>
+		<tr>
+			<td><img id="checklist"src="terraria-four-cultists-in-the-dungeon.avif" alt="Cultists"><p>The finale begins back at the dungeon, where the cultists reside. Slay them to take on your next boss.</p><input type="checkbox"></td>			
+			<td><img id="checklist"src="CultistFight.jpg" alt="Lunatic Cultist"><p>The Cultist is a powerful boss, but shouldn't take too long to defeat. Make sure to avoid his minions, as they are extremely damaging.</p><input type="checkbox"></td>
+			<td><img id="checklist"src="terraria_vortex_pillar_boss_fight_in_the_dark.jpg" alt="Vortex Pillar"><p>After defeating the Cultist, 4 Celestial Pillars will appear. Defeat them and their peons to summon the final boss.</p><input type="checkbox"></td>
+			<td><img id="checklist" src="x1080.jpeg" alt="Moonlord Fight"><p>The final boss will be your hardest challenge yet. Be sure to note be too agressive, as getting too close when you aren't supposed to will ensure your demise.</p><input type="checkbox"></td>			
+			<td><img id="checklist" src="Credits.jpg" alt="Boss_Fight"><p>After you defeat the Moon Lord, you will be the world's savior. Feel free to go back and chack anything you missed befoe, or mess around with the new items the Moon Lord has droped.</p><input type="checkbox"></td>
+		</tr>	
+	</table>
+</div>	
+<div class="grid-container">
+	<table>
+		<tr>
+			<th colspan="6"><h2>Notable Items</h2></th>
+		</tr>
+		<tr>
+			<td><img id="nota" src="Solar_Flare_armor.png" alt="Solar_Flare_armor"><img id="nota" src="Solar_Flare_armor.png" alt="Solar_Flare_armor"><p class="nota">Solar Flare Armor</p><input class="nota" type="checkbox"></td>
+			<td><img id="nota" src="Daybreak.png" alt="Daybreak"><p class="nota">Daybreak</p><input class="nota" type="checkbox"></td>	
+			<td><img id="nota" src="Solar_Eruption.webp" alt="Solar_Eruption"><p class="nota">Solar Eruption</p><input class="nota" type="checkbox"></td>	
+		</tr>
+		<tr>
+			<th colspan="6"><h2>Crafting</h2></th>
+		</tr>
+		<tr>
+			<td><p>45x Solar Fragments</p><img id="nota" src="Solar_Fragment.png" alt="Solar Fragment"><br><p>36x Luminite Bars</p><img id="nota" src="Luminite_Bar.webp" alt="Luminite Bar"></td>
+			<td><p>18x Solar Fragments</p><img id="nota" src="Solar_Fragment.png" alt="Solar Fragment"></td>
+			<td><p>18x Solar Fragments</p><img id="nota" src="Solar_Fragment.png" alt="Solar Fragment"></td>
+		</tr>				
+	</table>
+	<table>
+		<tr>
+			<th><h2>Notable Items [Expert/Master Mode]</h2></th>
+		</tr>
+		<tr>
+			<td><p>No effect yet.</p></td>
+		</tr>	
+		<tr>
+			<th><h2>Expert Drop</h2></th>
+		</tr>
+		<tr>
+			<td><p>No bosses fought</p></td>
+		</tr>		
+	</table>
+</div>
+<div class="grid-container">
+	<table>
+		<tr>
+			<th><h2>Notable NPCs</h2></th>
+		</tr>
+		<tr>
+			<td><p class="nota">None</p></td>	
+		</tr>
+	</table>	
+	<table>
+		<tr>
+			<th colspan="2"><h2>Notable Bosses</h2></th>
+		</tr>
+		<tr>
+			<td><img id="npc" src="Lunatic_Cultist.gif" alt="Lunatic_Cultist"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Lunatic_Cultist" target="_blank">Lunatic Cultist</a></p><input class="nota" type="checkbox"></td>
+			<td><img id="npc2" src="Moon_Lord.gif" alt="Moon_Lord"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Moon_Lord" target="_blank">Moon Lord</a></p><input class="nota" type="checkbox"></td>
+		</tr>
+	</table>
+</div>	
+	<button>
+		<a href="index.html"><p>Return to Home</p></a>
+	</button>
+</body>
+</html>

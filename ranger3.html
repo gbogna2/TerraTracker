@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="my.css">
+	<link rel="icon" type="text/css" href="icon.png">
+	<script src="my.js"></script>
+    <style>
+	body {
+  		background-image: url('800px-Forest_background_9.webp');
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+	}
+    #logo2 {
+        display: block;
+        margin: auto;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    </style>
+	<title>TerraTracker</title>
+</head>
+<body>
+    <a href="index.html"><img id="goback" src="icon.png"></a>
+    <img id="logo2" src="TTLogo.png"
+	    alt="TTLogo"
+	>
+	<h2 id="welcome">It's time to start cleansing the world of evil!</h2>
+	<p id="welcome">The world is full of evil, and it's your job to stop it. You'll need to travel to the evil biomes and defeat the bosses that lurk within.</p>
+  <style>
+    table {
+      	border-collapse: collapse;
+    }
+
+    th, td {
+      	background-color: rgb(108, 108, 252);
+      	border: 1px solid #000000;
+      	border-radius: 5px;
+      	text-align: center;
+      	padding: 10px;
+      	color: rgb(223, 179, 36);
+    }
+
+    td > img#checklist {
+		display: inline;
+      	max-width: 150px;
+      	max-height: 100px;
+      	padding: 10px;
+    }
+    button {
+      	background-color: rgb(108, 108, 252);
+      	border: 1px solid #000000;
+      	border-radius: 5px;
+      	text-align: center;
+      	padding: 10px;
+      	color: rgb(223, 179, 36);
+      	display: block;
+      	margin: 20px auto;
+    }
+	.grid-container {
+  		display: grid;
+  		grid-template-columns: repeat(2, auto);
+  		gap: 40px;
+  		justify-content: center;
+  		margin-top: 20px;
+	}
+    th {
+      	text-align: center;
+    }
+	@media (max-width: 768px) {
+  		.grid-container {
+    		display: flex;
+    		flex-direction: column;
+    		gap: 1%;
+    		justify-content: center;
+    		margin-top: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0px;
+			font-size: 10px;
+  		}
+  		.grid-container table {
+  			width: 75%;
+  		}
+		img#checklist{
+			width: 55px;
+			height: 40px;
+			margin: auto;
+		}
+		img#nota{
+			width: 40%;
+			height: 40%;
+			margin: auto;
+		}
+		table{
+			align-self: center;
+		}
+		th, td {
+			padding: 5px;
+			font-size: 10px;
+		}
+		td > img#checklist {
+			display: inline;
+      		padding: 5px;
+    }
+}
+</style>
+<div class="grid-container">
+	<table>
+		<tr><th colspan="5"><h1>Part Three: Evil Boss Melee</h1></th></tr>
+		<tr>
+			<th>Revisiting The Evil</th>
+			<th>Preparations</th>
+			<th>Boss Fight #2</th>
+		</tr>
+		<tr>
+			<td><img id="checklist"src="Corrupt_Desert_Biome.webp" alt="Corruption"><p>Next on the to-do list is the Evil Boss. The boss is different for both biomes, but will ultimately end up defeated.</p><input type="checkbox"></td>			
+			<td><img id="checklist"src="29-15-029.jpg" alt="Underground"><p>Most of your preparations for your next fight involve expanding the width of the care you're fighting in. This will help you avoid incoming attacks.</p><input type="checkbox"></td>
+			<td><img id="checklist" src="eater-of-worlds.jpg" alt="Boss_Fight2"><p>To summon your next boss, you must destroy 3 Shadow Orbs. These orbs are spread out through the underground of the evil biomes.</p><input type="checkbox"></td>
+		</tr>	
+	</table>
+</div>	
+<div class="grid-container">
+	<table>
+		<tr>
+			<th colspan="6"><h2>Notable Items</h2></th>
+		</tr>
+		<tr>
+			<td><img id="nota" src="Nightmare_Pickaxe.webp" alt="Nightmare_Pickaxe"><img id="nota" src="Deathbringer_Pickaxe.webp" alt="Deathbringer_Pickaxe"><p class="nota">Nightmare/Deathbringer Pickaxe</p><input class="nota" type="checkbox"></td>
+			<td><img id="nota" src="Shadow_armor.webp" alt="Shadow_armor"><img id="nota" src="Crimson_armor.webp" alt="Crimson_armor"><p class="nota">Shadow/Crimson Armor</p><input class="nota" type="checkbox"></td>	
+			<td><img id="nota" src="Light's_Bane.webp" alt="Light's_Bane"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Light's_Bane" target="_blank">Light's Bane</a></p><input class="nota" type="checkbox"></td>			
+		</tr>
+		<tr>
+			<th colspan="6"><h2>Crafting</h2></th>
+		</tr>
+		<tr>
+			<td><p>12x Demonite/Crimtane Bar</p><img id="nota" src="Demonite_Bar.webp" alt="Demonite"><img id="nota" src="Crimtane_Bar.webp" alt="Crimtane"><br><p>6x Shadow Scales/Tissue Samples</p><img id="nota" src="Shadow_Scale.webp" alt="Shadow_Scale"><img id="nota" src="Tissue_Sample.webp" alt="Tissue_Sample"></td>
+			<td><p>60x Demonite/Crimtane Bar</p><img id="nota" src="Demonite_Bar.webp" alt="Demonite"><img id="nota" src="Crimtane_Bar.webp" alt="Crimtane"><br><p>45x Shadow Scales/Tissue Samples</p><img id="nota" src="Shadow_Scale.webp" alt="Shadow_Scale"><img id="nota" src="Tissue_Sample.webp" alt="Tissue_Sample"></td>
+			<td><p>10x Demonite</p><img id="nota" src="Demonite_Bar.webp" alt="Demonite"></td>
+		</tr>				
+	</table>
+	<table>
+		<tr>
+			<th><h2>Notable Items [Expert/Master Mode]</h2></th>
+		</tr>
+		<tr>
+			<td><img id="nota" src="Worm_Scarf.webp" alt="Worm_Scarf"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Worm_Scarf" target="_blank">Worm Scarf</a></p><input class="nota" type="checkbox"></td>
+		</tr>	
+		<tr>
+			<th><h2>Expert Drop</h2></th>
+		</tr>
+		<tr>
+			<td><img id="npc" src="Eater_of_Worlds_Head.webp" alt="Eater_of_Worlds"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Eater_of_Worlds" target="_blank">Eater of Worlds</a></p><input class="nota" type="checkbox"></td>
+		</tr>		
+	</table>
+</div>
+<div class="grid-container">
+	<table>
+		<tr>
+			<th><h2>Notable NPCs</h2></th>
+		</tr>
+		<tr>
+			<td><p class="nota">No new notable NPCs</p></td>	
+		</tr>
+	</table>	
+	<table>
+		<tr>
+			<th colspan="2"><h2>Notable Bosses</h2></th>
+		</tr>
+		<tr>
+			<td><img id="npc" src="Eater_of_Worlds_Head.webp" alt="Eater_of_Worlds"><p class="nota"><a href="https://terraria.wiki.gg/wiki/Eater_of_Worlds" target="_blank">Eater of Worlds</a></p><input class="nota" type="checkbox"></td>
+		</tr>
+	</table>
+</div>	
+	<button>
+		<a href="ranger4.html"><p>Next Page</p></a>
+	</button>
+</body>
+</html>
